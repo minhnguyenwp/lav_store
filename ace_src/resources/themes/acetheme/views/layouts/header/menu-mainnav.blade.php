@@ -1,7 +1,7 @@
 <div class="nav-panel__nav-links nav-links">
     <ul class="nav-links__list">
         <li class="nav-links__item ">
-            <a class="nav-links__item-link" href="index.html">
+            <a class="nav-links__item-link" href="javascript:;">
                 <div class="nav-links__item-body">
                     Trang chủ
                     
@@ -10,7 +10,7 @@
         </li>
 
         <li class="nav-links__item ">
-            <a class="nav-links__item-link" href="index.html">
+            <a class="nav-links__item-link" href="javascript:;">
                 <div class="nav-links__item-body">
                     Nhãn hàng
                     
@@ -19,7 +19,7 @@
         </li>
 
         <li class="nav-links__item ">
-            <a class="nav-links__item-link" href="index.html">
+            <a class="nav-links__item-link" href="javascript:;">
                 <div class="nav-links__item-body">
                     Khuyến mãi
                     
@@ -27,7 +27,7 @@
             </a>
         </li>
         <li class="nav-links__item ">
-            <a class="nav-links__item-link" href="index.html">
+            <a class="nav-links__item-link" href="javascript:;">
                 <div class="nav-links__item-body">
                     Giới thiệu ACE
                     
