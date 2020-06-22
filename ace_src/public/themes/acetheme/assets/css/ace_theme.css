@@ -1,0 +1,18 @@
+.topbar__account {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.block-slideshow__slide-text {
+    width: 60%;
+}
+.footer-newsletter__form-input {
+    width: calc(100% - 102px);
+}
+
+.block-features__list {
+    border: none;
+}
+.block-features__list .block-features__item {
+    border: 1px solid #ebebeb;
+}

@@ -1,0 +1,6 @@
+/* HERO SLIDER */
+.hero-slider.block-slideshow .block-slideshow__slide-title
+, .hero-slider.block-slideshow .block-slideshow__slide-text {
+  color: #fff;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+}
