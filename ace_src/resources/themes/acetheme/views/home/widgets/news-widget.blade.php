@@ -238,7 +238,7 @@ Home Center</a>
                 <div class="post-card  ">
                     <div class="post-card__image">
                         <a href="">
-                            <img src="{{ asset('/themes/acetheme/assets/images/posts/post-10.png') }}" alt="">
+                            <img src="{{ asset('/themes/acetheme/assets/images/posts/post-10.jpg') }}" alt="">
                         </a>
                     </div>
                     <div class="post-card__info">
