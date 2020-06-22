@@ -7,6 +7,13 @@
         <div class="site-header__phone-title">HOTLINE</div>
         <div class="site-header__phone-number">1900 060 0730</div>
     </div>
+    <div class="site-header__cart">
+        <a href="javascript:;" class="shopping-cart">
+            <span class="ico ico-cart"></span>
+            <span class="text">Giỏ hàng</span>
+            <span class="cart-num">2</span>
+        </a>
+    </div>
 </div>
 
 <!-- <header class="sticky-header" v-if="!isMobile()">
