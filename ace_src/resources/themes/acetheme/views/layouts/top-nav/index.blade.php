@@ -2,10 +2,10 @@
     <div class="topbar__container container">
         <div class="topbar__row">
             <div class="topbar__item topbar__item--link">
-                <a class="topbar-link" href="about-us.html">Giới thiệu</a>
+                <a class="topbar-link" href="javascript:;">Giới thiệu</a>
             </div>
             <div class="topbar__item topbar__item--link">
-                <a class="topbar-link" href="contact-us.html">Liên lạc</a>
+                <a class="topbar-link" href="javascript:;">Liên lạc</a>
             </div>
             <div class="topbar__item topbar__item--link">
                 <a class="topbar-link" href="">Blog</a>
