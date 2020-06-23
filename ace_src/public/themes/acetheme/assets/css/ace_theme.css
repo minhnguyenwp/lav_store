@@ -1,6 +1,12 @@
 [dir=ltr] .site-header__phone {
     margin-left: 60px;
 }
+
+/* HEADER */
+.mobile-header__logo .img__logo {
+    width: 60px;
+}
+
 .topbar__account {
     padding-left: 15px;
     padding-right: 15px;
@@ -71,4 +77,18 @@ a.shopping-cart .text {
     height: 30px;
     line-height: 30px;
 
+}
+
+@media (max-width: 991px) {
+    .ace-ui .block-features--layout--classic .block-features__item {
+        width: 100%;
+    }
+    .ace-ui .search--location--mobile-header .search__button {
+        fill: #fff;
+    }
+}
+@media (max-width: 768px) {
+    .ace-ui .block-features--layout--classic .block-features__item {
+        margin-bottom: 15px;
+    }
 }

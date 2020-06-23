@@ -37,7 +37,7 @@
     </head>
 
     <body @if (core()->getCurrentLocale()->direction == 'rtl') class="rtl" @endif>
-    <div class="site">
+    <div class="site ace-ui">
         {!! view_render_event('bagisto.shop.layout.body.before') !!}
 
         @include('shop::UI.particals')
@@ -50,6 +50,7 @@
             <div class="main-container-wrapper">
 
                 @section('body-header')
+                @include('shop::layouts.header.mobile-header')
                 <header class="site__header d-lg-block d-none" v-if="!isMobile()">
                   <div class="site-header">
                     @include('shop::layouts.top-nav.index')
@@ -93,6 +94,9 @@
 
         <div id="alert-container"></div>
     </div><!-- END: site -->
+    @include('shop::layouts.header.mobile-menu')
+
+
 
         <script type="text/javascript">
             (() => {
