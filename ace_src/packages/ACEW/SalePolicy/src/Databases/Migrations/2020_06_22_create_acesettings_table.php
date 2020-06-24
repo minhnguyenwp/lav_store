@@ -17,7 +17,7 @@ class CreateAceSettingsTable extends Migration
             $table->increments('id');
             $table->string('type');
             $table->json('json_content')->nullable();
-            $table->timestamps();
+           
         });
     }
 

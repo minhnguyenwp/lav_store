@@ -33,13 +33,14 @@ class SalePolicyDataGrid extends DataGrid
             'label'      => "Type",
             'type'       => 'string',           
             'sortable'   => true,  
-            'searchable' => false,          
+            'searchable' => true,          
         ]);
 
         $this->addColumn([
             'index'      => 'json_content',
             'label'      => "Setting Content",
             'type'       => 'string',
+            'sortable'   => false, 
             'searchable' => false,
             'closure'    => true,
             'wrapper'    => function($value) {
@@ -50,12 +51,12 @@ class SalePolicyDataGrid extends DataGrid
 
     public function prepareActions()
     {
-        // $this->addAction([
-        //     'title'  => trans('admin::app.datagrid.edit'),
-        //     'method' => 'GET',
-        //     'route'  => 'admin.users.edit',
-        //     'icon'   => 'icon pencil-lg-icon',
-        // ]);
+        $this->addAction([
+            'title'  => trans('admin::app.datagrid.edit'),
+            'method' => 'GET',
+            'route'  => 'salepolicy.admin.edit',
+            'icon'   => 'icon pencil-lg-icon',
+        ]);
 
         // $this->addAction([
         //     'title'  => trans('admin::app.datagrid.delete'),

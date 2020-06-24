@@ -1,6 +1,6 @@
 {
-    "name": "acew/salepolicy-home",
-    "description": "Sale Policy for Home",
+    "name": "acew/generalsetting-them",
+    "description": "General setting for theme",
     "license": "MIT",
 
     "authors": [
@@ -13,14 +13,14 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "ACEW\\SalePolicy\\": "src/"
+            "ACEW\\GeneralSetting\\": "src/"
         }
     },
 
     "extra": {
         "laravel": {
             "providers": [
-                "ACEW\\SalePolicy\\Providers\\SalePolicyServiceProvider"
+                "ACEW\\GeneralSetting\\Providers\\GeneralSettingServiceProvider"
             ],
             "aliases": {}
         }

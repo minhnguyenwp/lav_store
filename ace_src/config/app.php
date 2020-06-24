@@ -271,6 +271,7 @@ return [
 
         // ACEWorkspace 
         ACEW\SalePolicy\Providers\SalePolicyServiceProvider::class,
+        ACEW\GeneralSetting\Providers\GeneralSettingServiceProvider::class,
     ],
 
     /*

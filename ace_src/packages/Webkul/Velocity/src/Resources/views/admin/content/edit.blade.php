@@ -61,7 +61,8 @@
                                 {{ __('velocity::app.admin.contents.page.title') }}
                                 <span class="locale">[{{ $locale }}]</span>
                             </label>
-                            <input type="text" v-validate="'required|max:100'" class="control" id="title" name="{{$locale}}[title]" value="{{ old($locale)['title'] ?? $content->translate($locale)['title'] }}" data-vv-as="&quot;{{ __('velocity::app.admin.contents.page.title') }}&quot;"/>
+                            <input type="text" v-validate="'required|max:100'" class="control" id="title" name="{{$locale}}[title]" 
+                            value="{{ old($locale)['title'] ?? $content->translate($locale)['title'] }}" data-vv-as="&quot;{{ __('velocity::app.admin.contents.page.title') }}&quot;"/>
 
                             <span class="control-error" v-if="errors.has('{{$locale}}[title]')">@{{ errors.first('{!!$locale!!}[title]') }}</span>
                         </div>
